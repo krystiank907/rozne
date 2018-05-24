@@ -18,6 +18,15 @@
 		8D5926592084AC3C001C6897 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D5926582084AC3C001C6897 /* GoogleService-Info.plist */; };
 		8D59265B2084AEDC001C6897 /* RealmObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D59265A2084AEDC001C6897 /* RealmObjects.swift */; };
 		8D7068E92088919800F4DCBE /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7068E82088919800F4DCBE /* SecondTableViewController.swift */; };
+		8D8E66D620B6A9FB0071F30E /* PreviewPDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8E66D420B6A9FB0071F30E /* PreviewPDFViewController.swift */; };
+		8D8E66D720B6A9FB0071F30E /* PreviewPDFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D8E66D520B6A9FB0071F30E /* PreviewPDFViewController.xib */; };
+		8D8E66DA20B6AAC30071F30E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8E66D820B6AAC20071F30E /* Constants.swift */; };
+		8D8E66DB20B6AAC30071F30E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8E66D920B6AAC20071F30E /* Utils.swift */; };
+		8D8E66E020B6ADD20071F30E /* PdfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8E66DE20B6ADD20071F30E /* PdfViewController.swift */; };
+		8D8E66E120B6ADD20071F30E /* PdfViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D8E66DF20B6ADD20071F30E /* PdfViewController.xib */; };
+		8D8E66E420B6B1E50071F30E /* CellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8E66E220B6B1E50071F30E /* CellTableViewCell.swift */; };
+		8D8E66E520B6B1E50071F30E /* CellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D8E66E320B6B1E50071F30E /* CellTableViewCell.xib */; };
+		8D8E66E720B6B58A0071F30E /* PaperType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8E66E620B6B5890071F30E /* PaperType.swift */; };
 		E040DC08B954565157F3A989 /* Pods_empty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92DAD74BC9CCBC1DCF0DA2F7 /* Pods_empty.framework */; };
 		F1B634219BEA38209E34047E /* Pods_emptyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E0A3F3B4952F928F3BFD39 /* Pods_emptyTests.framework */; };
 /* End PBXBuildFile section */
@@ -60,6 +69,15 @@
 		8D5926582084AC3C001C6897 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8D59265A2084AEDC001C6897 /* RealmObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmObjects.swift; sourceTree = "<group>"; };
 		8D7068E82088919800F4DCBE /* SecondTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
+		8D8E66D420B6A9FB0071F30E /* PreviewPDFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewPDFViewController.swift; sourceTree = "<group>"; };
+		8D8E66D520B6A9FB0071F30E /* PreviewPDFViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreviewPDFViewController.xib; sourceTree = "<group>"; };
+		8D8E66D820B6AAC20071F30E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8D8E66D920B6AAC20071F30E /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		8D8E66DE20B6ADD20071F30E /* PdfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfViewController.swift; sourceTree = "<group>"; };
+		8D8E66DF20B6ADD20071F30E /* PdfViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PdfViewController.xib; sourceTree = "<group>"; };
+		8D8E66E220B6B1E50071F30E /* CellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableViewCell.swift; sourceTree = "<group>"; };
+		8D8E66E320B6B1E50071F30E /* CellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellTableViewCell.xib; sourceTree = "<group>"; };
+		8D8E66E620B6B5890071F30E /* PaperType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaperType.swift; sourceTree = "<group>"; };
 		91E897DB4B36D10720C78126 /* Pods_emptyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_emptyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92DAD74BC9CCBC1DCF0DA2F7 /* Pods_empty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_empty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8EC5907EA4DD5033B8ADB2C /* Pods-emptyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emptyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-emptyTests/Pods-emptyTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +147,15 @@
 				8D0B6A472084902300C58A6C /* TableViewController.swift */,
 				8D59265A2084AEDC001C6897 /* RealmObjects.swift */,
 				8D7068E82088919800F4DCBE /* SecondTableViewController.swift */,
+				8D8E66E620B6B5890071F30E /* PaperType.swift */,
+				8D8E66D820B6AAC20071F30E /* Constants.swift */,
+				8D8E66D920B6AAC20071F30E /* Utils.swift */,
+				8D8E66D420B6A9FB0071F30E /* PreviewPDFViewController.swift */,
+				8D8E66D520B6A9FB0071F30E /* PreviewPDFViewController.xib */,
+				8D8E66DE20B6ADD20071F30E /* PdfViewController.swift */,
+				8D8E66DF20B6ADD20071F30E /* PdfViewController.xib */,
+				8D8E66E220B6B1E50071F30E /* CellTableViewCell.swift */,
+				8D8E66E320B6B1E50071F30E /* CellTableViewCell.xib */,
 			);
 			path = empty;
 			sourceTree = "<group>";
@@ -287,6 +314,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D8E66E120B6ADD20071F30E /* PdfViewController.xib in Resources */,
+				8D8E66E520B6B1E50071F30E /* CellTableViewCell.xib in Resources */,
+				8D8E66D720B6A9FB0071F30E /* PreviewPDFViewController.xib in Resources */,
 				8D0B6A242084825200C58A6C /* LaunchScreen.storyboard in Resources */,
 				8D0B6A212084825200C58A6C /* Assets.xcassets in Resources */,
 				8D5926592084AC3C001C6897 /* GoogleService-Info.plist in Resources */,
@@ -334,6 +364,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-empty/Pods-empty-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/PDFExporter/PDFExporter.framework",
 				"${BUILT_PRODUCTS_DIR}/PMAlertController/PMAlertController.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
@@ -344,6 +375,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PDFExporter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PMAlertController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
@@ -478,9 +510,15 @@
 			files = (
 				8D59265B2084AEDC001C6897 /* RealmObjects.swift in Sources */,
 				8D0B6A1C2084825100C58A6C /* ViewController.swift in Sources */,
+				8D8E66DB20B6AAC30071F30E /* Utils.swift in Sources */,
+				8D8E66E720B6B58A0071F30E /* PaperType.swift in Sources */,
 				8D7068E92088919800F4DCBE /* SecondTableViewController.swift in Sources */,
 				8D0B6A482084902300C58A6C /* TableViewController.swift in Sources */,
+				8D8E66E420B6B1E50071F30E /* CellTableViewCell.swift in Sources */,
 				8D0B6A1A2084825100C58A6C /* AppDelegate.swift in Sources */,
+				8D8E66D620B6A9FB0071F30E /* PreviewPDFViewController.swift in Sources */,
+				8D8E66DA20B6AAC30071F30E /* Constants.swift in Sources */,
+				8D8E66E020B6ADD20071F30E /* PdfViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

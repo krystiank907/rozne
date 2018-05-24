@@ -9,6 +9,8 @@ pod 'RealmSwift'
 pod 'Firebase'
 pod 'Firebase/Database'
 pod 'PMAlertController'
+pod 'PDFExporter'
+
 	
   target 'emptyTests' do
     inherit! :search_paths

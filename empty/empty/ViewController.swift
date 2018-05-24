@@ -8,9 +8,9 @@
 
 import UIKit
 import ChameleonFramework
+import PDFExporter
 
 class ViewController: UIViewController, UINavigationControllerDelegate {
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,16 +28,25 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
         navigationItem.title = "Menu"
         let button = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.bookmarks, target: self, action: #selector(action))
         let plus = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.add, target: self, action: #selector(actionsecond))
+        let pdf = UIBarButtonItem(title: "PDF", style: .done, target: self, action: #selector(pdfGenerate))
         navigationItem.rightBarButtonItems = [button,plus]
+        navigationItem.leftBarButtonItem = pdf
     }
     
     @objc func action(){
         let vc = TableViewController()
         navigationController?.pushViewController(vc, animated: true)
     }
+    
     @objc func actionsecond(){
         let vc = SecondTableViewController()
         navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    
+    @objc func pdfGenerate(){
+        let previewPdfVC = PdfViewController()
+        navigationController?.pushViewController(previewPdfVC, animated: true)
     }
 
 }

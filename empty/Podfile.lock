@@ -32,6 +32,7 @@ PODS:
     - nanopb/encode (= 0.3.8)
   - nanopb/decode (0.3.8)
   - nanopb/encode (0.3.8)
+  - PDFExporter (2.0.0)
   - PMAlertController (3.3.0)
   - Realm (3.3.2):
     - Realm/Headers (= 3.3.2)
@@ -43,6 +44,7 @@ DEPENDENCIES:
   - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
   - Firebase
   - Firebase/Database
+  - PDFExporter
   - PMAlertController
   - RealmSwift
 
@@ -65,10 +67,11 @@ SPEC CHECKSUMS:
   GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  PDFExporter: 65846c04e87ef406f1ca222934ca9b2a19f06818
   PMAlertController: 15dd20ca343bd7761ca254542cc561f05ad6b89c
   Realm: d927fbf66df5532cfafc08afb5f7e53ded37b894
   RealmSwift: 4e903a494e05d866581d69ad6f7e7b879d446baf
 
-PODFILE CHECKSUM: 62ea42894170c0dac2f6c338b9377b5747b80794
+PODFILE CHECKSUM: c545850e0bd546f616a0f98cdfbbcf33d88fe65f
 
 COCOAPODS: 1.4.0

@@ -1,0 +1,6 @@
+framework module PDFExporter {
+  umbrella header "PDFExporter-umbrella.h"
+
+  export *
+  module * { export * }
+}
